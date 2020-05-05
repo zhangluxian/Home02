@@ -31,12 +31,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,homework02_1.class);
         startActivity(intent);
     }
-    /*用于实现作业二跳转
+    //用于实现作业二跳转
     public void startmain2(View view){
-        Intent intent=new Intent(this,homework2.class);
+        Intent intent=new Intent(this,homework02_2.class);
         startActivity(intent);
     }
-    //用于实现作业三跳转
+    /*//用于实现作业三跳转
     public void startmain3(View view){
         Intent intent=new Intent(this,homework3.class);
         startActivity(intent);
