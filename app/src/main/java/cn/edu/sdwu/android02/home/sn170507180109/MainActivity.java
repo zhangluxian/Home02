@@ -19,10 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Button button2=(Button) findViewById(R.id.homework_btn2);
         //获取作业三按钮
         Button button3=(Button) findViewById(R.id.homework_btn3);
-        //获取作业四按钮
-        Button button4=(Button) findViewById(R.id.homework_btn4);
-        //获取作业五按钮
-        Button button5=(Button) findViewById(R.id.homework_btn5);
+
     }
 
     //用于实现作业一跳转
@@ -36,20 +33,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,homework02_2.class);
         startActivity(intent);
     }
-    /*//用于实现作业三跳转
+    //用于实现作业三跳转
     public void startmain3(View view){
-        Intent intent=new Intent(this,homework3.class);
+        Intent intent=new Intent(this,homework02_3.class);
         startActivity(intent);
     }
-    //用于实现作业四跳转
-    public void startmain4(View view){
-        Intent intent=new Intent(this,homework4.class);
-        startActivity(intent);
-    }
-    //用于实现作业五跳转
-    public void startmain5(View view){
-        Intent intent=new Intent(this,homework5.class);
-        startActivity(intent);
-    }*/
+
 }
 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="takephoto"
+            android:text="takephoto" />
+
+    </LinearLayout>
+    <!--TextureView一般用来显示内容流（content stream），比如视频,相机照片的预览-->
+    <TextureView
+        android:layout_width="match_parent"
+        android:id="@+id/homework02_tv"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
